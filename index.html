@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grofers Clone - Online Grocery Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Grofers</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+            <div class="header-actions">
+                <div class="cart-icon">
+                    <span>🛒</span>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="user-info">
+                    <span>Login</span>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fruits & Vegetables</a></li>
+                <li><a href="#">Dairy & Bakery</a></li>
+                <li><a href="#">Snacks</a></li>
+                <li><a href="#">Beverages</a></li>
+                <li><a href="#">Personal Care</a></li>
+                <li><a href="#">Home Care</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Get fresh groceries delivered to your door</h2>
+                <p>Order from our wide range of products and get them delivered in as little as 30 minutes</p>
+            </div>
+        </section>
+
+        <section class="offers-section">
+            <h2>Special Offers</h2>
+            <div class="offers-container">
+                <div class="offer-card">
+                    <h3>50% OFF</h3>
+                    <p>On fresh fruits & vegetables</p>
+                    <span class="offer-code">Use code: FRESH50</span>
+                </div>
+                <div class="offer-card">
+                    <h3>Buy 2 Get 1 Free</h3>
+                    <p>On all dairy products</p>
+                    <span class="offer-code">Use code: DAIRYB2G1</span>
+                </div>
+                <div class="offer-card">
+                    <h3>Free Delivery</h3>
+                    <p>On orders above ₹500</p>
+                    <span class="offer-code">Use code: FREESHIP</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <h2>Popular Products</h2>
+            <div class="products-container">
+                <!-- Products will be loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart">✕</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will appear here -->
+        </div>
+        <div class="cart-total">
+            <div class="total-row">
+                <span>Subtotal:</span>
+                <span class="subtotal-amount">₹0</span>
+            </div>
+            <div class="total-row">
+                <span>Discount:</span>
+                <span class="discount-amount">₹0</span>
+            </div>
+            <div class="total-row">
+                <span>Total:</span>
+                <span class="total-amount">₹0</span>
+            </div>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
